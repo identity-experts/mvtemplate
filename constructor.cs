@@ -1,6 +1,7 @@
 
 using System;
 using Microsoft.MetadirectoryServices;
+using NLog;
 
 namespace Mms_Metaverse
 {
@@ -9,13 +10,14 @@ namespace Mms_Metaverse
 	/// </summary>
     public partial class MVExtensionObject : IMVSynchronization
     {
+        //-- enable NLog
+        private static Logger logger = LogManager.GetCurrentClassLogger();
+
+        /// <summary>
+        /// Add any constructor logic in here
+        /// </summary>
         public MVExtensionObject()
         {
-            //
-            // TODO: Add constructor logic here
-            //
         }
-
-        
     }
 }

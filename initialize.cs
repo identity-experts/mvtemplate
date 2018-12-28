@@ -10,12 +10,11 @@ namespace Mms_Metaverse
     public partial class MVExtensionObject
     {
 
-
+        /// <summary>
+        /// Add any initialization logic here
+        /// </summary>
         void IMVSynchronization.Initialize()
         {
-            //
-            // TODO: Add initialization logic here
-            //
         }
 
 

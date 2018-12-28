@@ -9,13 +9,11 @@ namespace Mms_Metaverse
     /// </summary>
     public partial class MVExtensionObject : IMVSynchronization
     {
+        /// <summary>
+        /// Add any cleanup logic here
+        /// </summary>
         void IMVSynchronization.Terminate()
         {
-            //
-            // TODO: Add termination logic here
-            //
         }
-
-     
     }
 }

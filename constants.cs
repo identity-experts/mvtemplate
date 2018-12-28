@@ -9,7 +9,10 @@ namespace Mms_Metaverse
     /// </summary>
     public partial class MVExtensionObject
     {
+        //-- constant strings
+        private const string OBJECTCLASS_PERSON = "PERSON";
 
+        
 
     }
 }
